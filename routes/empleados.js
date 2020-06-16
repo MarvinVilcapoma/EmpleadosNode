@@ -19,9 +19,9 @@ router.post('/', function(req, res){
 
 // WS actualizar registro
 router.put('/', function(req, res){
-  controller.edit(req, res);
-});
-
+    controller.edit(req, res);
+  });
+  
 // WS eliminar registro
 router.delete('/:id', function(req, res){
   controller.delete(req, res);
